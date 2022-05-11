@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link arquivo de estilo(css). -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Jogo da velha</title>
+</head>
+
+<body>
+    
+    <!-- Tamanho da fonte do título. -->
+    <h1>Jogo da velha</h1>
+    
+    <!-- Tag div vai representar uma linha. -->
+    <div>
+        <!-- Essas tags div representam os nossos quadrados. -->
+        <!-- Em cada tag div foi colocado um identificador(id). -->
+        <div class="quadrado" id="1" onclick="escolherQuadrado(this.id)">-</div>
+        <div class="quadrado" id="2" onclick="escolherQuadrado(this.id)">-</div>
+        <div class="quadrado" id="3" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+
+    <div>
+        <div class="quadrado" id="4" onclick="escolherQuadrado(this.id)">-</div>
+        <div class="quadrado" id="5" onclick="escolherQuadrado(this.id)">-</div>
+        <div class="quadrado" id="6" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+
+    <div>
+        <div class="quadrado" id="7" onclick="escolherQuadrado(this.id)">-</div>
+        <div class="quadrado" id="8" onclick="escolherQuadrado(this.id)">-</div>
+        <div class="quadrado" id="9" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+
+    <div class="jogador">
+        <!-- Essa div serve para mostrar o contéudo jogador. -->
+        <label for="">Jogador:</label>
+        <label id="jogador-selecionado"></label>
+    </div>
+
+    <div>
+        <label for="">Vencedor:</label>
+        <label id="vencedor-selecionado"></label>
+    </div>
+
+    <div>
+        <!-- Aqui criamos o botão reiniciar. -->
+        <button onclick="reiniciar()">Reiniciar</button>
+    </div>
+    
+</body>
+
+<script src="script.js"></script>
+<script>alert ("Vamos Jogar!");</script>
+
+</html>

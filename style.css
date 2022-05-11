@@ -1,0 +1,47 @@
+/* Cetralizando todo nosso conteudo. */
+body {
+    text-align: center;
+}
+
+/* Lembrete: para se iniciar uma classe começamos por ponto. */
+.quadrado {
+    text-align: center;   /* para centralizar o contéudo. */
+    width: 56;            /* largura */
+    background: blue;   /* cor de fundo. */
+    display: inline-block;  /* posição vai ocupar somente o espaço do contéudo dele */
+    padding: 40px;       /* margem do contéudo  */   
+    font-size: 60px;     /* tamanho da fonte. */
+    margin: 5px;     
+    cursor: pointer;    /* cursor mãozinha */
+    color: orange;    /* cor do texto */
+}
+
+/* Personalizando cor do título. */
+h1 {
+    color: red; 
+    display: inline;
+}
+
+/* estilizando para as duas class. */
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+
+/* Personalizando botões */
+.button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: green;
+    cursor: pointer;
+
+}
+
+
+
+
+    
+   
+
